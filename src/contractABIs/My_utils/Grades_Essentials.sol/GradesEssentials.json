@@ -1,0 +1,95 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "GradesEssentials",
+  "sourceName": "contracts/My_utils/Grades_Essentials.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_am",
+          "type": "uint256"
+        }
+      ],
+      "name": "_getStudentPS",
+      "outputs": [
+        {
+          "internalType": "uint64",
+          "name": "studentPS",
+          "type": "uint64"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_am",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint64",
+          "name": "_PS",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_semID",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint8[]",
+          "name": "_CoursesTypeNum",
+          "type": "uint8[]"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_maxCourseTypes",
+          "type": "uint8"
+        }
+      ],
+      "name": "_hasPassedAllCourses",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "result",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "gradesManagerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_addr",
+          "type": "address"
+        }
+      ],
+      "name": "setGMaddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

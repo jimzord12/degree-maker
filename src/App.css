@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+  /* box-sizing: border-box; */
+  text-align: center;
+  font-family: 'Press Start 2P', 'VT323';
+  color: white;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  /* width: 100vw; */
+  /* padding: 200px; */
+}
+
+/* .scroll-{
+
+} */
+
+/* .overlay {
+  opacity: 0.85;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: absolute;
+} */
+
+.moving-background {
+  z-index: -1;
+  /* height: '100vh'; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./assets/background/BlockChain_GIF_blue.gif');
+  /* background-image: url('./assets/background/parallax-bg.gif'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 40% 40%;
+}
+
+.SelectNetwork {
+  filter: contrast(200%);
+}
+
+select option {
+  color: blue;
+}
+
+select option:first-child {
+  color: white;
+}

@@ -1,0 +1,123 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CourseEssentials",
+  "sourceName": "contracts/My_utils/Course_Essentials.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "_PS",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_semID",
+          "type": "uint8"
+        }
+      ],
+      "name": "_getCourses",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "studentCoursesPerSem",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "_PS",
+          "type": "uint64"
+        }
+      ],
+      "name": "_getMaxCourseTypes",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "MaxCourseTypes",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "_PS",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint8",
+          "name": "_semID",
+          "type": "uint8"
+        }
+      ],
+      "name": "_getRequirementsFormSem",
+      "outputs": [
+        {
+          "internalType": "uint8[]",
+          "name": "_typeOfCoursesNum",
+          "type": "uint8[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint64",
+          "name": "_PS",
+          "type": "uint64"
+        }
+      ],
+      "name": "_getSems",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "studentMaxSemesters",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "coursesManagerAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_addr",
+          "type": "address"
+        }
+      ],
+      "name": "setCMaddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
